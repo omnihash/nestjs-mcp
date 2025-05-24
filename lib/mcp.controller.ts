@@ -1,4 +1,3 @@
-// mcp.controller.ts
 import { Controller, Delete, Get, Post, Req, Res } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { McpService } from './mcp.service';
