@@ -2,20 +2,19 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
-    "removeComments": true,
+    "strict": true,
+    "removeComments": false,
+    "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "ES2023",
-    "sourceMap": true,
+    "target": "ES2021",
+    "sourceMap": false,
     "outDir": "./dist",
-    "baseUrl": "./",
-    "incremental": true,
+    "rootDir": "./lib",
     "skipLibCheck": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": false
+  },
+  "include": ["lib/**/*", "examples/tools", "examples/app.module.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts", "tests"]
 }
