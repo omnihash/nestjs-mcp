@@ -1,4 +1,4 @@
-# Omnihash NestJS MCP (Model Context Protocol) Module
+![Omnihash + Nest](oh_nest.png)
 
 A NestJS module for implementing Model Context Protocol servers. This module provides a robust integration of the MCP protocol into NestJS applications, supporting Server-Sent Events (SSE) for real-time communication and tool execution.
 

@@ -1,6 +1,6 @@
 {
   "name": "@omnihash/nestjs-mcp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A NestJS module for implementing Model Context Protocol servers. This module provides a robust integration of the MCP protocol into NestJS applications, supporting Server-Sent Events (SSE) for real-time communication and tool execution.",
   "author": "Omnihash",
   "private": false,
